@@ -1,0 +1,30 @@
+// Variables
+$platinum_controls_core2: url(../../../consumer_assets/site_images/video/html5/platinum-controls.core2.png);
+$toolbar_controls: url(../../../consumer_assets/site_images/video/html5/premium-toolbar-controls.png);
+$toolbar_controls_mobile: url(../../../consumer_assets/site_images/video/html5/mobile_icons.png);
+//$spinner_icon: url(../../../consumer_assets/site_images/video/html5/video_icon_spinner.gif);
+
+
+//Play and Spinner buttons
+@import 'webmdtv_partials/buttons';
+
+$premium_video_label:#45807c;
+
+// Player
+@import 'webmdtv_partials/premium-video-player';
+
+// Control Bar
+@import 'webmdtv_partials/dynamic-control-bar';
+
+// Info Bar
+@import 'webmdtv_partials/premium-info-bar';
+
+// Playlist
+@import 'webmdtv_partials/pageable-playlist';
+@import 'webmdtv_partials/pageable-playlist-segmented';
+
+// Transitioning and Opening
+@import 'webmdtv_partials/transitioning-and-opening';
+
+// ADS
+@import 'webmdtv_partials/ads';
